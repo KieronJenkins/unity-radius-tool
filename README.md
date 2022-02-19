@@ -9,7 +9,7 @@
 ## About
 The radius tool is designed to make it easier to space objects around a unity game scene which is lightweight and easy to use.
 
-## Using the toolbox
+## Using the tool
 1. Download **ObjectRadius.cs** script from the repository.
 2. **Copy and Paste** ObjectRadius.cs into the project folders.
 3. Launch / Compile Unity.
