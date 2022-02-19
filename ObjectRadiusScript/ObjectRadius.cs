@@ -7,6 +7,7 @@ public class ObjectRadius : MonoBehaviour
 {
   [Range(1f, 100f)]
   public float objectRadius = 1f;
+  public Color color = Color.red; 
 
   private void OnEnable()
   {
@@ -15,7 +16,7 @@ public class ObjectRadius : MonoBehaviour
 
   private void OnDrawGizmosSelected()
   {
-    Gizmos.color = Color.cyan;
+    Gizmos.color = color;
     Gizmos.DrawWireSphere(transform.position, objectRadius);
   }
 }
